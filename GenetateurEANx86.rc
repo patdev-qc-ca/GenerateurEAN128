@@ -1,0 +1,163 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// French (France) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)
+#ifdef _WIN32
+LANGUAGE LANG_FRENCH, SUBLANG_FRENCH
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDC_GENETATEUREAN MENU DISCARDABLE 
+BEGIN
+    POPUP "CodeBarre"
+    BEGIN
+        MENUITEM "Generer",                     32771
+        MENUITEM SEPARATOR
+        MENUITEM "Imprimer",                    32773
+        MENUITEM "Copier en memoire",           32774
+        MENUITEM "Exporter comme image",        32776
+    END
+    MENUITEM "&Quitter",                    IDM_EXIT
+    POPUP "&Aide"
+    BEGIN
+        MENUITEM "&À propos de...",             IDM_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDC_GENETATEUREAN ACCELERATORS MOVEABLE PURE 
+BEGIN
+    "?",            IDM_ABOUT,              ASCII,  ALT
+    "/",            IDM_ABOUT,              ASCII,  ALT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 189, 122
+STYLE DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "À propos de GenetateurEAN"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDI_ICON2,-1,3,25,21,20
+    CTEXT           "\nCode Barre 1.83\n\n(C)Patrice Waechter-Ebling 2019-2020\n \n Code: EAN 128 \n\n 32bits pour  Windows NT5 \\&+",
+                    -1,34,0,130,80
+    DEFPUSHBUTTON   "Fermer",IDOK,135,105,50,14,WS_GROUP
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE MOVEABLE PURE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE MOVEABLE PURE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE MOVEABLE PURE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 24
+//
+
+1                       24      DISCARDABLE     "C:\\Users\\patwe\\Documents\\Nouveaux Projects\\@Projet Distributeck\\res\\bin1.bin"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_APP_TITLE           "GenetateurEAN"
+    IDC_GENETATEUREAN       "GENETATEUREAN"
+END
+
+#endif    // French (France) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// French (Canada) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRC)
+#ifdef _WIN32
+LANGUAGE LANG_FRENCH, SUBLANG_FRENCH_CANADIAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON    DISCARDABLE     "EanRegenrator.ico"
+IDI_ICON2               ICON    DISCARDABLE     "C:\\Users\\patwe\\Documents\\Nouveaux Projects\\@Projet Distributeck\\res\\Logo Windows10.ico"
+#endif    // French (Canada) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

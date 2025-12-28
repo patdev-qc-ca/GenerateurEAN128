@@ -1,0 +1,10 @@
+#define IDI_APPMAIN    100
+#define IDD_PRINTSETUP 101
+#define IDC_EDIT_LEFT   1000
+#define IDC_EDIT_TOP    1001
+#define IDC_EDIT_WIDTH  1002
+#define IDC_EDIT_HEIGHT 1003
+#define IDC_UD_LEFT     1004
+#define IDC_UD_TOP      1005
+#define IDC_UD_WIDTH    1006
+#define IDC_UD_HEIGHT   1007
